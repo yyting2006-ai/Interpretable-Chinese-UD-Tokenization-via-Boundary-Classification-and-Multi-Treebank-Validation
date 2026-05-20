@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Interpretable Chinese UD Tokenization via Boundary Classification and Multi-Treebank Validation"
+message: "If you use this code or results, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: "You"
+    given-names: "Youtingrui"
+year: 2026
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/ud-boundary-tokenization"
+keywords:
+  - Chinese tokenization
+  - Universal Dependencies
+  - boundary classification
+  - multi-treebank training
+  - interpretable NLP
+

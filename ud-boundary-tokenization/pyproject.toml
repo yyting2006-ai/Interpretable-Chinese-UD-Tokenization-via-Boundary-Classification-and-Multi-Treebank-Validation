@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ud-boundary-tokenization"
+version = "0.1.0"
+description = "Interpretable Chinese UD tokenization via character-boundary classification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Youtingrui You" }
+]
+dependencies = [
+  "pandas>=2.1",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8", "Pillow>=10.0"]
+segmenters = ["jieba>=0.42.1", "pkuseg>=0.0.25", "stanza>=1.11.1"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
